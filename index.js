@@ -5,7 +5,7 @@ const cors = require("cors");
 const bcrypt = require("bcrypt");
 
 const app = express();
-const port = process.env.PORT ||  5000;
+const port = process.env.PORT || 5000;
 
 // Create a MySQL database connection
 const connection = mysql.createConnection({
